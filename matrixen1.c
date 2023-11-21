@@ -1,12 +1,13 @@
 #include <stdio.h>
 
+int main()
+{
 
-int main(){
-    
-    int n,m;
-    printf("Ingrese el numero de filas y  columnas \n");
-    scanf ("%d",&n);
-    scanf ("%d",&m);
+    int n, m;
+    printf("Ingrese el numero de filas  \n");
+    scanf("%d", &n);
+    printf("Ingrese el numero de filas  \n");
+    scanf("%d", &m);
 
     int Matrix[n][m];
 
@@ -16,15 +17,17 @@ int main(){
         printf("\n");
         for (int j = 0; j < m; j++)
         {
-            if (i == j){
+            if (i == j)
+            {
                 Matrix[i][j] = 1;
             }
-            else {
+            else
+            {
                 Matrix[i][j] = 0;
             }
-            printf(" %d ", Matrix[i][j]);   
+            printf(" %d ", Matrix[i][j]);
         }
     }
- 
+
     return 0;
 }
