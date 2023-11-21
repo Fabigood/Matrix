@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 
 int main(){
     
     int n,m;
-    printf("Ingrese el numeor de filas y columnas \n");
+    printf("Ingrese el numero de filas y  columnas \n");
     scanf ("%d",&n);
     scanf ("%d",&m);
 
